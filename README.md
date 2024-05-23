@@ -19,7 +19,7 @@ LeNet is a convolutional neural network structure proposed by LeCun et al. in 19
 ### Baseline model – LeNet5:
 
 | Layer (type) | Output Shape     | Param #              |
-|--------------|-----------------------------------------|
+|--------------|------------------|----------------------|
 | Conv2d       | [-1, 6, 28, 28]  | 156                  |
 | Tanh         | [-1, 6, 28, 28]  | 0                    |
 | AvgPool2d    | [-1, 6, 14, 14]  | 0                    |
