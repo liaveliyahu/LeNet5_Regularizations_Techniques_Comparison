@@ -16,7 +16,8 @@ example is a 28x28 grayscale image, associated with a label from 10 classes.
 
 LeNet is a convolutional neural network structure proposed by LeCun et al. in 1998.[1] In general, LeNet refers to LeNet-5 and is a simple convolutional neural network. (Wikipedia)
 
-Baseline model – LeNet5:
+### Baseline model – LeNet5:
+
 | Layer (type) | Output Shape     | Param #              |
 |--------------|-----------------------------------------|
 | Conv2d       | [-1, 6, 28, 28]  | 156                  |
@@ -32,7 +33,7 @@ Baseline model – LeNet5:
 | Linear       | [-1, 10]         | 850                  |
 |              |                  | Total params: 61,706 |
 
-### Techniques to compare
+### Techniques to compare:
 * Dropout
 * Weight Decay
 * Batch Normalization
